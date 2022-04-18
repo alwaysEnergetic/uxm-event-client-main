@@ -1,0 +1,17 @@
+
+.navItem {
+  &.active {
+    background-color: #444;
+    border-radius: 3px;
+  }
+  &:hover {
+    background-color: #444;
+    border-radius: 3px;
+  }
+  @media screen and (max-width: 767px) {
+    border-bottom: 1px solid #343a40;
+  }
+  &:last-child {
+    border: none;
+  }
+}

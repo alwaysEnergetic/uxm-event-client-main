@@ -1,0 +1,14 @@
+.List {
+  overflow-y: hidden;
+  transition: 0.2s;
+  // margin-bottom: 20px;
+}
+
+.Link {
+  padding: 10px 24px;
+  min-width: 0;
+  display: block;
+  &:hover {
+    background-color: var(--bg-secondary, '#f2f2f2');
+  }
+}

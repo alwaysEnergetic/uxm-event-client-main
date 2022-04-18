@@ -1,0 +1,36 @@
+.sendMessageWrap{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    display: block;
+
+    .messageBoxWrap{
+        display: flex;
+        background-color: none;
+        height: auto;
+        .messageInput {
+            border: 1px solid #7777778e;
+            width: 445px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .imgWrap {
+            .img{
+                height: 38px;
+                width: 38px;
+                object-fit: cover;
+                margin-right: 10px;
+                overflow: hidden;
+                border-radius: 50%;
+                margin-top: px;
+            }
+        }
+    }
+    .postButton {
+        display:block;
+        margin: 10px 0 0 50px;
+        border-radius: 15px;
+        width: 4em;
+        padding: 1px
+    }
+}

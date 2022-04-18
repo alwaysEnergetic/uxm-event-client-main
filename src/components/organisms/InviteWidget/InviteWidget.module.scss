@@ -1,0 +1,23 @@
+.inviteBody {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  span {
+    width: 50%;
+
+    button {
+      width: calc(100% - 10px);
+      margin: 5px;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    .hidden-input {
+      display: none;
+    }
+  }
+}

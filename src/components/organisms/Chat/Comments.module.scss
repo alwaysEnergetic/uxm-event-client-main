@@ -1,0 +1,62 @@
+.messageBox {
+    align-items: center;
+    width: 90%;
+    margin-bottom: 10px;
+  .messageWrap {
+    display: flex;
+    .imgWrap {
+      margin-right: 10px;
+      overflow: hidden;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .content {
+      width: 90%;
+      background-color: #f1f1ed;
+      padding: 5px 10px;
+      max-width: 500px;
+      word-break: break-all;
+      border-radius: 5px;
+      margin-bottom:10px;
+      font-size: 14px;
+
+      .message{
+        display: flex;
+        align-items: center;
+        width: 95%;
+      }
+      .messageInfo {
+        display: flex;
+        font-size: 15px;
+        padding-bottom: 5px;
+      }
+
+      .dated{
+        margin-left: auto;
+      }
+
+      .fullName {
+        margin-right: 15px;
+        font-weight: bold;
+        a {
+          text-decoration: none;
+          &:not(:hover) {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+  .bottomLayer{
+    display: inline-block;
+    margin-left: 55px;
+    width: 900px;
+    .replybtn{
+      display: block;
+      font-size: 12px;
+      background-color: transparent;
+      border: none;
+    }
+  }
+}
